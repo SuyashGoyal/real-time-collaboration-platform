@@ -20,3 +20,10 @@ This application will allow multiple users to work together on documents or desi
 + Docker for Containerization
 + Kubernetes for orchestration
 + CI/CD pipelines for Continuous Integration and Deployment
+
+### Terminal Commands
+#### Backend
++ npm init -y : to initialize the node.js project
+To install dependencies: Express, Socket.IO & database interaction
++ npm install express socket.io mongoose dotenv
++ npm install --save-dev nodemon
