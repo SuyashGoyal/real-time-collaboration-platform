@@ -27,3 +27,7 @@ This application will allow multiple users to work together on documents or desi
 To install dependencies: Express, Socket.IO & database interaction
 + npm install express socket.io mongoose dotenv
 + npm install --save-dev nodemon
+
+### Testing
++ npm install --save-dev mocha chai supertest
+
