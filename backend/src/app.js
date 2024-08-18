@@ -28,6 +28,9 @@ mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTop
 // Routes
 app.use('/api', require('./routes'));
 
+const socketHandler = require('./sockets');
+socketHandler(io);
+
 // Start server
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
